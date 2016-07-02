@@ -26,7 +26,7 @@ module.exports =
             default: "
 \ \ \ \ /**\n
 \ \ \ \ * Get the value of %description% \n
-\ \ \ \ * \n
+\ \ \ \ *\n
 \ \ \ \ * @return %type%\n
 \ \ \ \ */\n
 \ \ \ %scope% function %methodName%()\n
@@ -38,11 +38,11 @@ module.exports =
             type: 'string'
             description: "You might want to use the template editor ..."
             default: "
-\ \ \ \ /** \n
+\ \ \ \ /**\n
 \ \ \ \ * Set the value of %description% \n
-\ \ \ \ * \n
+\ \ \ \ *\n
 \ \ \ \ * @param %type% %variable%\n
-\ \ \ \ * \n
+\ \ \ \ *\n
 \ \ \ \ * @return self\n
 \ \ \ \ */\n
 \ \ \ %scope% function %methodName%(%typeHint%$%variable%)\n
